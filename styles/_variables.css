@@ -58,14 +58,17 @@
     --heading-h6: 16px;
 
     /* Body { Onest Medium } */
-    --body-lg: 1.583em;
-    --body-md: 1.667em;
-    --body-sm: 1.714em;
+    --body-lg: 24px;
+    --body-md: 18px;
+    --body-sm: 14px;
 
     /* Text single {Onest Regular Onest Medium Onest Bold } */
     --text-400: 1.083em;
     --text-300: 1.1em;
     --text-200: 1.111em;
     --text-100: 1.125em;
+
+    /* Border radius */
+    --rounded: 14px;
   }
 }

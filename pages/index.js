@@ -28,7 +28,13 @@ export default function Home() {
         The current theme is: {theme}
       </h2>
       <div className="flex items-center space-x-4">
-        <button onClick={() => setTheme('light')}>Light Mode</button>
+        <button
+          className="btn btn-primary-lg"
+          onClick={() => setTheme('light')}
+        >
+          Small
+        </button>
+        <button className="btn btn-primary-circle-lg">0</button>
         <button onClick={() => setTheme('dark')}>Dark Mode</button>
       </div>
     </div>

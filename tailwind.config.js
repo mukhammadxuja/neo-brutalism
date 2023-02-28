@@ -1,4 +1,4 @@
-const { fontFamily, fontSize } = require('tailwindcss/defaultTheme');
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: ['./pages/**/*.{js,jsx}', './components/**/*.{js,jsx}'],
@@ -18,6 +18,9 @@ module.exports = {
         'onest-medium': ['Onest Medium', ...fontFamily.sans],
         'onest-light': ['Onest Light', ...fontFamily.sans],
         'onest-thin': ['Onest Thin', ...fontFamily.sans],
+      },
+      borderRadius: {
+        md: 'var(--rounded)'
       },
       colors: {
         // Primary
