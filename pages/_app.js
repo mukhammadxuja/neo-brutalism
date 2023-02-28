@@ -1,7 +1,8 @@
 import { ThemeProvider } from 'next-themes';
 import { appWithTranslation } from 'next-i18next';
 
-import 'styles/globals.css';
+import 'styles/styles.css';
+import 'styles/tailwind.css';
 import Layout from 'components/layout';
 
 function MyApp({ Component, pageProps }) {

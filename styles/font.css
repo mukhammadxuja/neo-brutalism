@@ -1,0 +1,39 @@
+@tailwind base;
+
+@layer base {
+  @font-face {
+    font-family: 'Onest Black';
+    font-weight: 900;
+    src: url('/fonts/onest-black.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Extra Bold';
+    font-weight: 800;
+    src: url('/fonts/onest-extrabold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Bold';
+    font-weight: 700;
+    src: url('/fonts/onest-bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Regular';
+    font-weight: 600;
+    src: url('/fonts/onest-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Medium';
+    font-weight: 500;
+    src: url('/fonts/onest-medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Thin';
+    font-weight: 400;
+    src: url('/fonts/onest-thin.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Onest Light';
+    font-weight: 300;
+    src: url('/fonts/onest-light.woff2') format('woff2');
+  }
+}

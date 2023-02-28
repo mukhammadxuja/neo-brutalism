@@ -1,0 +1,71 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    /* Accent color */
+    --primary: #ffc431;
+
+    /* Secondary colors */
+    --secondary-yellow: #ffc224;
+    --secondary-blue: #1c92ff;
+    --secondary-purple: #5c42fb;
+    --secondary-red: #ff4a60;
+    --secondary-green: #81e644;
+
+    /* Neutral colors */
+    --neutral-800: #0b0b0b;
+    --neutral-700: #393939;
+    --neutral-600: #5e5e5f;
+    --neutral-500: #878787;
+    --neutral-400: #eceae8;
+    --neutral-300: #f1f0ee;
+    --neutral-200: #faf9f6;
+    --neutral-100: #ffffff;
+
+    /* System colors */
+    --blue-400: #086cd9;
+    --blue-300: #1d88fe;
+    --blue-200: #8fc3ff;
+    --blue-100: #eaf4ff;
+
+    --green-400: #11845b;
+    --green-300: #05c168;
+    --green-200: #7fdca4;
+    --green-100: #def2e6;
+
+    --red-400: #dc2b2b;
+    --red-300: #ff5a65;
+    --red-200: #ffbec2;
+    --red-100: #ffeff0;
+
+    --orange-400: #d5691b;
+    --orange-300: #ff9e2c;
+    --orange-200: #ffd19b;
+    --orange-100: #fff3e4;
+
+    /* Display 1 { Onest Bold } */
+    --display-1: 1.181em;
+    --display-2: 1.154em;
+    --display-3: 1.368em;
+    --display-4: 1.429em;
+
+    /* Headings { Onest Bold } */
+    --heading-h1: 54px;
+    --heading-h2: 38px;
+    --heading-h3: 24px;
+    --heading-h4: 22px;
+    --heading-h5: 18px;
+    --heading-h6: 16px;
+
+    /* Body { Onest Medium } */
+    --body-lg: 1.583em;
+    --body-md: 1.667em;
+    --body-sm: 1.714em;
+
+    /* Text single {Onest Regular Onest Medium Onest Bold } */
+    --text-400: 1.083em;
+    --text-300: 1.1em;
+    --text-200: 1.111em;
+    --text-100: 1.125em;
+  }
+}
